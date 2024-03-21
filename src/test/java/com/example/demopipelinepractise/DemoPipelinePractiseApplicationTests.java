@@ -10,7 +10,10 @@ class DemoPipelinePractiseApplicationTests {
 
 	@Test
 	void contextLoads() {
-		assertEquals(2, 1 + 1);
+		
+		var addmethods = new AddMethods();
+		
+		assertEquals(6, addmethods.add(3,3));
 	}
 
 }

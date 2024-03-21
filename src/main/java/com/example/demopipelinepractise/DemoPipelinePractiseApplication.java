@@ -8,6 +8,8 @@ public class DemoPipelinePractiseApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoPipelinePractiseApplication.class, args);
+		
+		
 		System.out.println("Hello, Spring Boot!");
 	}
 
